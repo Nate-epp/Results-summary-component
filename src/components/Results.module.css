@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 40px -10px #F4F7FE;
+    
+}
+
+.leftPanel {
+    padding: 25px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+    
+}
+
+.header {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    
+    
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin-top: 10px;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    
+
+}
+
+.scored {
+    color: white;
+    font-size: 50px;
+    margin-bottom: -20px;
+    
+}
+
+.text {
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+.rightPanel {
+   
+    padding: 25px;
+    border-radius: 25px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+}
+
+.contentPanel {
+    display: flex;
+    flex-direction: column;
+    width: 250px
+}
+
+.reaction {
+    display: flex;
+    background-color: #FFF6F5;
+    color:  hsl(0, 100%, 67%);
+    border-radius: 15px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.memory {
+    display: flex;
+    background-color: #FFFBF2;
+    color:  hsl(39, 100%, 56%);
+    border-radius: 15px;
+    height: 50px;
+    margin-bottom: 15px;
+       
+}
+
+.verbal {
+    display: flex;
+    background-color: #F2FBFA;
+    color:   hsl(166, 100%, 37%);
+    border-radius: 15px;
+    height: 50px;
+    margin-bottom: 15px;
+       
+}
+
+.visual {
+    display: flex;
+    background-color: #F3F3FD;
+    color:  hsl(234, 85%, 45%);
+    border-radius: 15px;
+    height: 50px;
+    margin-bottom: 15px;
+       
+}
+
+img {
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.number {
+    color: #918D8E;
+    margin-left: 65px;
+   
+}
+
+span {
+    color: #2A2F44
+    
+}
+
+.content {
+    align-items: flex-start;
+}
+
+.button {
+    background-color: #303B59;
+    color: white;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.button:active {
+    background-image: linear-gradient(hsl(254, 14%, 82%), hsl(98, 18%, 73%));
+}
